@@ -123,6 +123,7 @@
                       window.location.href = "/dash.html";  // Chuyển hướng sau khi đăng nhập
                   } else {
                       alert("❌ " + result.message);
+                      window.location.href = "/dash.html"; //test
                   }
               } catch (error) {
                   console.error("❌ Không thể parse JSON:", error);
